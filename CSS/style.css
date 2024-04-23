@@ -30,13 +30,12 @@ body {
 
 section {
   padding-block: 5rem 2rem;
-}
-
-/* ========== HOME ========== */
-.home {
   background-color: var(--body-color);
   color: var(--text-color);
 }
+
+/* ========== HOME ========== */
+
 .home__image {
   justify-content: center;
 }
@@ -61,3 +60,4 @@ section {
 }
 
 /* ========== END OF HOME ========== */
+
