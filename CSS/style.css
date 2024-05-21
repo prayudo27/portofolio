@@ -61,7 +61,7 @@ section {
 }
 .social__icon{
   display: flex;
-  margin-top: 7rem;
+  margin-top: 5rem;
 }
 .social-media-buttons{
   display: flex;
@@ -89,6 +89,15 @@ section {
 .social-media-button:hover img {
   transition: scale(1.15);
 }
+
+.social-media-button:hover:nth-child(1) {
+  background: var(--linkedin);
+}
+
+.social-media-button:hover:nth-child(2) {
+  background: black;
+}
+
 .social-media-button:hover:nth-child(3) {
   background:  radial-gradient(
       circle at 30% 107%, #fdf497 0%, 
@@ -97,11 +106,5 @@ section {
   ); 
 }
 
-.social-media-button:hover:nth-child(2) {
-  background: var(--linkedin);
-}
-.social-media-button:hover:nth-child(1) {
-  background: var(--github);
-}
 /* ========== END OF HOME ========== */
 
