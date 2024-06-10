@@ -12,7 +12,7 @@
   --big-font-size: 1.75rem;
   --h1-font-size: 4rem;
   --h2-font-size: 1.25rem;
-  --h3-font-size: 1.5rem;
+  --h3-font-size: 1rem;
   --normal-font-size: 1.2rem;
   --small-font-size: 0.813rem;
   --smaller-font-size: 0.75rem;
@@ -29,6 +29,8 @@
   --github: #00bcd4;
   /* END OF COLOR ICON */
 }
+
+
 
 section {
   padding-block: 5rem 2rem;
@@ -138,3 +140,18 @@ span {
   color: var(--text-color2);
 }
 /* ========== END OF ABOUT */
+
+/* ========== SKILL ========== */
+.skill__title {
+  font-size: var(--h1-font-size);
+  margin-bottom: 1.5rem;
+}
+.skill__subtitle {
+  font-size: var(--h3-font-size);
+  margin-bottom: 2rem;
+}
+.skill__icon {
+  flex-wrap: wrap;
+  row-gap: 2rem;
+}
+/* ========== END OF SKILL ========== */
